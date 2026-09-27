@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\src\main\res"><file name="slide_in_left" path="C:\codes\android_project1\app\src\main\res\anim\slide_in_left.xml" qualifiers="" type="anim"/><file name="slide_in_right" path="C:\codes\android_project1\app\src\main\res\anim\slide_in_right.xml" qualifiers="" type="anim"/><file name="slide_out_left" path="C:\codes\android_project1\app\src\main\res\anim\slide_out_left.xml" qualifiers="" type="anim"/><file name="slide_out_right" path="C:\codes\android_project1\app\src\main\res\anim\slide_out_right.xml" qualifiers="" type="anim"/><file name="ic_launcher" path="C:\codes\android_project1\app\src\main\res\drawable\ic_launcher.xml" qualifiers="" type="drawable"/><file name="activity_inventory" path="C:\codes\android_project1\app\src\main\res\layout\activity_inventory.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\codes\android_project1\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_reports" path="C:\codes\android_project1\app\src\main\res\layout\activity_reports.xml" qualifiers="" type="layout"/><file name="activity_session_details" path="C:\codes\android_project1\app\src\main\res\layout\activity_session_details.xml" qualifiers="" type="layout"/><file name="activity_settings" path="C:\codes\android_project1\app\src\main\res\layout\activity_settings.xml" qualifiers="" type="layout"/><file name="item_bar_inventory" path="C:\codes\android_project1\app\src\main\res\layout\item_bar_inventory.xml" qualifiers="" type="layout"/><file name="drawer_menu" path="C:\codes\android_project1\app\src\main\res\menu\drawer_menu.xml" qualifiers="" type="menu"/><file path="C:\codes\android_project1\app\src\main\res\values\colors.xml" qualifiers=""><color name="neon_green">#39FF14</color><color name="neon_green_dim">#20800A</color><color name="red_accent">#FF1744</color><color name="red_dark">#D50000</color><color name="black_background">#121212</color><color name="card_background">#1E1E1E</color><color name="green_success">#00E676</color><color name="white">#FFFFFF</color><color name="black">#000000</color><color name="grey_text">#B0BEC5</color></file><file path="C:\codes\android_project1\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BarApp</string><string name="navigation_drawer_open">Открыть меню</string><string name="navigation_drawer_close">Закрыть меню</string></file><file path="C:\codes\android_project1\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.BarApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorPrimaryVariant">@color/neon_green_dim</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/neon_green</item>
+        <item name="colorSecondaryVariant">@color/neon_green_dim</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+        <item name="android:windowBackground">@color/black_background</item>
+        <item name="android:textColor">@color/white</item>
+        
+        
+        <item name="materialButtonStyle">@style/Widget.BarApp.Button.Outlined</item>
+
+        
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style><style name="WindowAnimations" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style><style name="Widget.BarApp.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/neon_green</item>
+        <item name="strokeColor">@color/neon_green</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/neon_green</item>
+        <item name="cornerRadius">24dp</item>
+    </style></file><file name="activity_login" path="C:\codes\android_project1\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\codes\android_project1\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>

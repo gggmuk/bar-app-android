@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.BarApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorPrimaryVariant">@color/neon_green_dim</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/neon_green</item>
+        <item name="colorSecondaryVariant">@color/neon_green_dim</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black_background</item>
+        <item name="android:textColor">@color/white</item>
+        
+        <!-- Default Button Style -->
+        <item name="materialButtonStyle">@style/Widget.BarApp.Button.Outlined</item>
+
+        <!-- Transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+
+    <style name="WindowAnimations" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Widget.BarApp.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/neon_green</item>
+        <item name="strokeColor">@color/neon_green</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/neon_green</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+</resources>
